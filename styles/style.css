@@ -1,0 +1,40 @@
+body {
+ margin: 0;
+ font-family: 'Outfit', sans-serif;
+ font-weight: 400;
+ background-color:hsl(212, 45%, 89%);
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainblock {
+  width: 320px;
+  height: 497px;
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.qrcode {
+  width: 288px;
+  height: 288px;
+  margin: 16px 16px 0 16px;
+  border-radius: 10px;
+}
+
+.qr__tittle {
+  font-size: 22px;
+  margin: 20px 16px 17px 16px;
+}
+
+.qr__text {
+  font-size: 15px;
+  margin-left: 32px;
+  margin-right: 32px;
+  color:#7c889e;
+}
